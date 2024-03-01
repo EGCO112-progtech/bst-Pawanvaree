@@ -16,15 +16,18 @@ for ( i = 1; i < argc; ++i ) {
   } // end for
    // traverse the tree preOrder
    //printf("The preOrder traversal is: " );
-   //preOrder( b.root );
+   preOrder( b.root );
+       printf("\n");
 
    // traverse the tree inOrder
    //printf("\nThe inOrder traversal is: " );
-   //inOrder( b.root );
+   inOrder( b.root );
+       printf("\n");
    
    // traverse the tree postOrder
    //printf("\nThe postOrder traversal is: " );
-   //postOrder( b.root );
+   postOrder( b.root );
+       printf("\n");
 
    printTree( b.root,0 );
     printf("\n");
